@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: red;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .player {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .player img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  
+  footer {
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
